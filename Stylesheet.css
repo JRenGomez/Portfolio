@@ -1,0 +1,110 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Set to 100vh to stretch only to the height of the viewport */
+  width: 200px; /* Set width to 300px */
+
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  height: 300px;
+  width: 200px;
+  background-color: #007bff;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.navigation {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.navigation h2 {
+  margin-bottom: 10px;
+}
+
+.navigation button {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #555;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navigation button:last-child {
+  margin-bottom: 0;
+}
+/*==================================================*/
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-column img {
+  width: 100px;
+  height: 20px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.footer-column h2 {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+/*==================================================*/
+.container {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  height: 100vh; /* Full height of the viewport */
+}
+.content {
+  width: 50%; /* Adjust width as needed */
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
