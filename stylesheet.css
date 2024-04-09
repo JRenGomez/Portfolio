@@ -4,8 +4,13 @@ body, html {
   font-family: Arial, sans-serif;
 
 }
+.ggroup{
+  padding: 70px;
 
-
+}
+.sGroup{
+  padding: 70px;
+}
 .grid-container {
   display: grid;
     grid-template-columns: auto auto auto;
