@@ -136,11 +136,11 @@ align-items:center;
 justify-content:center;
 }
 .video {
-    display: flex;
+ display: flex;
  align-self:flex-end;
   justify-content: center;
   
-  }
+}
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
