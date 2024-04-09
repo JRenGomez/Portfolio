@@ -4,10 +4,7 @@ body, html {
   font-family: Arial, sans-serif;
 
 }
-.ggroup{
-  padding: 70px;
 
-}
 .sGroup{
   padding: 70px;
 }
@@ -124,10 +121,15 @@ footer {
 .content {
    grid-area: content;
    justify-content:flex-end;
-  width: 70%; /* Adjust width as needed */
+  width: 70%; 
+  height: 100% ; /* Adjust width as needed */
   padding: 20px;
   background-color: b;
   border: 1px solid #ccc;
+}
+.ggroup{
+  padding: 50px;
+
 }
 /*==============Middle Area=======================*/
 .image-gallery{
