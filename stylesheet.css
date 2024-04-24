@@ -71,6 +71,8 @@ background-color: blanchedalmond;
 
 .two {
   grid-area: two;
+  background-size: cover;
+    background-repeat: no-repeat;
  /* background-color: orange*/
 }
 
